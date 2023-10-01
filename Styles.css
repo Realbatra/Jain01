@@ -1,0 +1,39 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Login Page Styles */
+.container {
+    margin-top: 100px;
+}
+
+/* Main Site Styles */
+header a {
+    text-decoration: none;
+}
+
+main .row > div {
+    margin: 10px 0;
+}
+
+.copy-btn {
+    background-color: #001f3f; /* navy blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.copy-btn:hover {
+    background-color: #0056b3; /* lighter blue */
+}
+
+footer {
+    background-color: #f4f4f4;
+    margin-top: 50px;
+}
